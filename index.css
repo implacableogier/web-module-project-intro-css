@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of reset */
+
+
+
+
+/* Here starts my actual code */
+
+/*Header and Footer styling*/
+.header-section {
+	display: flex;
+	width: 95%;
+	margin: 1%;
+}
+
+.footer-nav {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 100%;
+	padding: 20px;
+	background-color: #F9E7DC;
+}
+
+.header-nav-items {
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer {
+	background-color: #F9E7DC;
+	height: 100%;
+	width: 95%;
+	border: 5px solid black;
+	display: flex;
+	text-align: center;
+}
+
+header nav a {
+	margin: 0 auto;
+	padding: 10px;
+	line-height: 200%;
+	text-decoration: none;
+}
+
+footer nav a {
+	margin: 0 auto;
+	padding: 10px;
+	line-height: 200%;
+	text-decoration: none;
+}
+
+.nav-plan-visit {
+	background-color: #FF764E;
+	border-radius: 15px;
+	color: white;
+}
+.nav-learn-about {
+	background-color: #5ED3EB;
+	border-radius: 15px;
+	color: white;
+}
+.nav-get-involved {
+	background-color: #FFCD69;
+	border-radius: 15px;
+	color: white;
+}
+
+
+
+/*Image styling*/
+.header-photo {
+	height: 20%;
+	width: 20%;
+	border-radius: 200px;
+	display: block;
+	margin: 20px;
+}
+.campfire {
+	height: 10%;
+	width: 10%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.rv {
+	height: 10%;
+	width: 10%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer-image {
+	height: auto;
+	width: 100%;
+	padding: 5px;
+}
+.footer-image-div {
+	width: 100%;
+}
+/*End image styling*/
+
+
+
+
+
+/*Text styling*/
+h1 {
+	font-size: 80px;
+	text-align: center;
+	padding: 30px;
+}
+
+.info-text {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+html {
+	font-family: 'Roboto Mono';
+}
+
+.body-description {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DDB9A3;
+	width: 90%;
+	text-align: center;
+	padding: 15px;
+	font-size: 20px;
+
+}
+
+.make-bold {
+	font-weight: bold;
+}
+
+.campfire-text {
+	height: 10%;
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.camping-text {
+	height: 10%;
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/*End text styling*/
+
+      
